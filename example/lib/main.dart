@@ -192,6 +192,7 @@ class _ChatPageState extends State<ChatPage> {
         onSendPressed: _handleSendPressed,
         user: _user,
       ),
+      //git
     );
   }
 }
