@@ -184,7 +184,8 @@ class _ChatPageState extends State<ChatPage> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-        body: Column(
+        body: SafeArea(
+            child: Column(
       children: [
         Flexible(
           child: Chat(
@@ -196,7 +197,13 @@ class _ChatPageState extends State<ChatPage> {
             user: _user,
           ),
         ),
+        TextField(
+            decoration: InputDecoration(hintText: 'hint text'),
+            style: TextStyle(
+                fontSize: 16,
+                color: Colors.black,
+                fontWeight: FontWeight.w500)),
       ],
-    ));
+    )));
   }
 }
