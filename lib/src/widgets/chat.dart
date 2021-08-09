@@ -360,12 +360,12 @@ class _ChatState extends State<Chat> {
                                 ),
                               ),
                       ),
-                      Input(
-                        isAttachmentUploading: widget.isAttachmentUploading,
-                        onAttachmentPressed: widget.onAttachmentPressed,
-                        onSendPressed: widget.onSendPressed,
-                        onTextChanged: widget.onTextChanged,
-                      ),
+                      // Input(
+                      //   isAttachmentUploading: widget.isAttachmentUploading,
+                      //   onAttachmentPressed: widget.onAttachmentPressed,
+                      //   onSendPressed: widget.onSendPressed,
+                      //   onTextChanged: widget.onTextChanged,
+                      // ),
                     ],
                   ),
                 ),

@@ -160,7 +160,7 @@ class _InputState extends State<Input> {
                               InheritedL10n.of(context).l10n.inputPlaceholder,
                         ),
                         focusNode: _inputFocusNode,
-                        // keyboardType: TextInputType.multiline,
+                        keyboardType: TextInputType.multiline,
                         maxLines: 5,
                         minLines: 1,
                         onChanged: widget.onTextChanged,
