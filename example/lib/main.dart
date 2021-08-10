@@ -197,6 +197,7 @@ class _ChatPageState extends State<ChatPage> {
             user: _user,
           ),
         ),
+        
         TextField(
             decoration: InputDecoration(hintText: 'hint text'),
             style: TextStyle(
